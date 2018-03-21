@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView } from 'react-native';
 
 const Header = () => {
 	const {viewStyle, textStyle, mainStyle, subText} = styles;
@@ -8,32 +8,26 @@ const Header = () => {
 				<View style={viewStyle}>
 			 		<Text style={textStyle}> Podcast </Text>
 				</View>
-				<Text style={subText}> We live one day at a time, learning all we can about ourselves and why we are here. </Text>
 			</View>
 		);
 };
 
 const styles={
 	mainStyle: {
-		backgroundColor: '#820',
-		alignItems: 'center'
+		width: '100%'
 	},
 	viewStyle: {
 		justifyContent: 'center',
 		alignItems: 'center',
 		backgroundColor: '#000',
-		marginBottom: 10,
+		marginBottom: 0,
 		width: '100%'
 	},
 	textStyle: {
-		fontSize: 20,
-		padding: 20,
+		fontFamily: 'AvantGarde',
+		fontSize: 14,
+		padding: 10,
 		color: '#fff'
-	},
-	subText: {
-		marginBottom: 10,
-		color: '#fff',
-		padding: 15
 	}
 }
 

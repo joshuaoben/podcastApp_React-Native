@@ -1,0 +1,20 @@
+{
+	"pods": [
+		{
+			"number": "1",
+			"subtitle": "Why You should Learn",
+			"title": "Web Development as a problem solver"
+		},
+		{
+			"number": "2",
+			"subtitle": "Fun tips about",
+			"title": "Living as a Programmer"
+		},
+		{
+			"number": "3",
+			"subtitle": "Pros and Cons of",
+			"title": "Learning Programming by yourself"
+		}
+
+	]
+}
