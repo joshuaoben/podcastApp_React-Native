@@ -4,11 +4,13 @@ import Play from './Play';
 
 const Box = (props) => {
 	const { boxStyle, numberStyle, subTitleStyle, titleStyle, imageStyle } = styles;
+	const pod = props.pod;
+	const {subtitle, title, number } = pod;
 	return(
 		<View style={boxStyle}>
-			<Text style={numberStyle}>{props.number}</Text>
-			<Text style={subTitleStyle}>{props.subtitle}</Text>
-			<Text style={titleStyle}>{props.title}</Text>
+			<Text style={numberStyle}>{number}</Text>
+			<Text style={subTitleStyle}>{subtitle}</Text>
+			<Text style={titleStyle}>{title}</Text>
 			<Play />
 		</View>
 

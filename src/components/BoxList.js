@@ -14,7 +14,7 @@ class BoxList extends Component{
 
 	renderBoxList(){
 		return this.state.pods.map(pod =>
-			<Box number={pod.number} subtitle={pod.subtitle} title={pod.title} />
+			<Box pod={pod} key={pod.number} />
 			);
 	}
 
