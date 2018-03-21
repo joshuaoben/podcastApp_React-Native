@@ -1,5 +1,4 @@
-{
-	"pods": [
+[
 		{
 			"number": "1",
 			"subtitle": "Why You should Learn",
@@ -14,7 +13,15 @@
 			"number": "3",
 			"subtitle": "Pros and Cons of",
 			"title": "Learning Programming by yourself"
+		},
+		{
+			"number": "4",
+			"subtitle": "Be inspired by",
+			"title": "Succesful and Impactful Devs"
+		},{
+			"number": "5",
+			"subtitle": "Have a mindset of",
+			"title": "Helping others, and solving Probems"
 		}
 
 	]
-}
